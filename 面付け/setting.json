@@ -1,0 +1,31 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "rows": "2",
+        "vbonecut": "False",
+        "hbonecut": "False"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "5mm",
+        "hwidth": "5mm"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "offset": "-0.25mm",
+        "prolong": "1mm"
+    },
+    "framing": {
+        "type": "frame",
+        "width": "3mm",
+        "fillet": "5mm"
+    },
+    "page": {
+        "type": "A3"
+    },
+    "post": {
+        "copperfill": "True",
+        "millradius": "1mm"
+    }
+}
