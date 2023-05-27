@@ -1,0 +1,41 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\segment_led.sv'
+Analyzing Verilog file 'H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\seven_segment_with_dp.sv'
+Analyzing Verilog file 'H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\timer.sv'
+Analyzing Verilog file 'H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\top.sv'
+Compiling module 'top'("H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\top.sv":1)
+WARN  (EX3780) : Using initial value of 'reg_numbers' since it is never assigned("H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\top.sv":15)
+Compiling module 'timer1'("H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\top.sv":28)
+WARN  (EX3791) : Expression size 16 truncated to fit in target size 15("H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\top.sv":42)
+Compiling module 'segment_led'("H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\segment_led.sv":11)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'reset'("H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\top.sv":18)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'next_segment'("H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\top.sv":18)
+WARN  (EX3670) : Actual bit length 8 differs from formal bit length 6 for port 'digit_selector_out'("H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\top.sv":18)
+NOTE  (EX0101) : Current top module is "top"
+WARN  (EX0211) : The output port "onboard_led[5]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\top.sv":10)
+WARN  (EX0211) : The output port "onboard_led[4]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\top.sv":10)
+WARN  (EX0211) : The output port "onboard_led[3]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\top.sv":10)
+WARN  (EX0211) : The output port "onboard_led[2]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\top.sv":10)
+WARN  (EX0211) : The output port "onboard_led[1]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\top.sv":10)
+WARN  (EX0211) : The output port "onboard_led[0]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\top.sv":10)
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input sw is unused("H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\top.sv":3)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\impl\gwsynthesis\6digit7seg_2.vg" completed
+[100%] Generate report file "H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\impl\gwsynthesis\6digit7seg_2_syn.rpt.html" completed
+GowinSynthesis finish

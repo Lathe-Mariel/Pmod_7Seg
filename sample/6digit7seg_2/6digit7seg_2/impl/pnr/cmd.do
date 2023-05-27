@@ -1,0 +1,11 @@
+-d H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\impl\gwsynthesis\6digit7seg_2.vg
+-p GW2A-18C-PBGA256-8
+-pn GW2A-LV18PG256C8/I7
+-cst H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\src\7seg.cst
+-cfg H:\git\Pmod_7Seg\sample\6digit7seg_2\6digit7seg_2\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-route_maxfan 23

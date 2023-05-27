@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "H:/git/Pmod_7Seg/sample/6digit7seg/src/top.sv",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "H:/git/Pmod_7Seg/sample/6digit7seg/src/top.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "H:/git/Pmod_7Seg/sample/6digit7seg/src/top.sv",
+    "InstLine" : 34,
+    "InstName" : "timer_instance",
+    "ModuleFile" : "H:/git/Pmod_7Seg/sample/6digit7seg/src/top.sv",
+    "ModuleLine" : 57,
+    "ModuleName" : "timer1"
+   }
+  ]
+ }
+]

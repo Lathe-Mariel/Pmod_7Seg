@@ -1,0 +1,28 @@
+{
+ "Files" : [
+  {
+   "Path" : "H:/git/Pmod_7Seg/sample/6digit7seg_2/6digit7seg_2/src/segment_led.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "H:/git/Pmod_7Seg/sample/6digit7seg_2/6digit7seg_2/src/seven_segment_with_dp.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "H:/git/Pmod_7Seg/sample/6digit7seg_2/6digit7seg_2/src/timer.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "H:/git/Pmod_7Seg/sample/6digit7seg_2/6digit7seg_2/src/top.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "H:/git/Pmod_7Seg/sample/6digit7seg_2/6digit7seg_2/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

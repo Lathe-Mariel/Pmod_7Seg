@@ -1,0 +1,54 @@
+[
+ {
+  "InstFile" : "H:/git/Pmod_7Seg/sample/6digit7seg_2/6digit7seg_2/src/seven_segment_with_dp.sv",
+  "InstLine" : 11,
+  "InstName" : "seven_segment_with_dp",
+  "ModuleFile" : "H:/git/Pmod_7Seg/sample/6digit7seg_2/6digit7seg_2/src/seven_segment_with_dp.sv",
+  "ModuleLine" : 11,
+  "ModuleName" : "seven_segment_with_dp",
+  "SubInsts" : [
+   {
+    "InstFile" : "H:/git/Pmod_7Seg/sample/6digit7seg_2/6digit7seg_2/src/seven_segment_with_dp.sv",
+    "InstLine" : 33,
+    "InstName" : "segment_led_inst",
+    "ModuleFile" : "H:/git/Pmod_7Seg/sample/6digit7seg_2/6digit7seg_2/src/segment_led.sv",
+    "ModuleLine" : 11,
+    "ModuleName" : "segment_led"
+   }
+  ]
+ },
+ {
+  "InstFile" : "H:/git/Pmod_7Seg/sample/6digit7seg_2/6digit7seg_2/src/timer.sv",
+  "InstLine" : 1,
+  "InstName" : "timer",
+  "ModuleFile" : "H:/git/Pmod_7Seg/sample/6digit7seg_2/6digit7seg_2/src/timer.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "timer"
+ },
+ {
+  "InstFile" : "H:/git/Pmod_7Seg/sample/6digit7seg_2/6digit7seg_2/src/top.sv",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "H:/git/Pmod_7Seg/sample/6digit7seg_2/6digit7seg_2/src/top.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "H:/git/Pmod_7Seg/sample/6digit7seg_2/6digit7seg_2/src/top.sv",
+    "InstLine" : 17,
+    "InstName" : "timer_instance",
+    "ModuleFile" : "H:/git/Pmod_7Seg/sample/6digit7seg_2/6digit7seg_2/src/top.sv",
+    "ModuleLine" : 28,
+    "ModuleName" : "timer1"
+   },
+   {
+    "InstFile" : "H:/git/Pmod_7Seg/sample/6digit7seg_2/6digit7seg_2/src/top.sv",
+    "InstLine" : 18,
+    "InstName" : "leds",
+    "ModuleFile" : "H:/git/Pmod_7Seg/sample/6digit7seg_2/6digit7seg_2/src/segment_led.sv",
+    "ModuleLine" : 11,
+    "ModuleName" : "segment_led"
+   }
+  ]
+ }
+]
